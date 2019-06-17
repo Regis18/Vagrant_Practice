@@ -11,3 +11,4 @@ set OS_IMAGE=ubuntu-18.04-amd64-server_20190215
 set OS_KEY_PAIR_NAME=regishumana
 set OS_REGION_NAME=bootstack-jalasoft
 set OS_INITIALS=REHU
+set OS_KEY_PATH=C:\\Users\\Admin\\vagrant\\regishumana.pem
