@@ -1,6 +1,6 @@
 require 'vagrant-openstack-provider'
-Vagrant.configure('2') do|config|
 
+Vagrant.configure('2') do|config|
 	config.ssh.username = 'ubuntu'
 	config.ssh.private_key_path = "C:\\Users\\Admin\\vagrant\\regishumana.pem"
 	config.vm.provider :openstack do|os, override|
