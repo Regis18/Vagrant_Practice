@@ -3,14 +3,8 @@ services:
   jenkins_server:
     image: "registry.jala.info/devops/jenkins/jenkins:2.150.3-alpine"
     ports:
-      - "8080:8080"
+      - "80:8080"
       - "5000:5000"
     volumes:
       - /home/ubuntu/jenkins_home:/var/jenkins_home
-  jenkins_server_2:
-    image: "registry.jala.info/devops/jenkins/jenkins:2.150.3-alpine"
-    ports:
-      - "8080:8080"
-      - "5000:5000"
-    volumes:
-      - /home/ubuntu/jenkins_home_2:/var/jenkins_home
+    restart: always
